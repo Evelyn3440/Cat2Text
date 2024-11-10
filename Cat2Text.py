@@ -1,5 +1,3 @@
-alphabet = ["a","b","c"]
-
 def translate(data):
     data = data.lower()
     data = data.replace("meow","0").replace("mrrp", "1").replace("mreow", "2").replace("mrow", "3").replace(" ", "")
